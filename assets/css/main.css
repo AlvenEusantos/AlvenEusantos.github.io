@@ -1654,7 +1654,6 @@
 
 	p {
 		text-align: justify;
-		color: black;
 	}
 
 	br.clear {
@@ -2394,7 +2393,7 @@
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-			color: #fff;
+			color: #000;
 		}
 
 		#footer .contact {
