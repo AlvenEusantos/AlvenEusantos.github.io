@@ -2130,6 +2130,7 @@
 			#header header > p {
 				font-size: 1.25em;
 				margin: 0;
+				color: black;
 			}
 
 		#header h1 {
@@ -2336,6 +2337,7 @@
 
 		#banner header > p {
 			margin-bottom: 0;
+			color: black;
 		}
 
 /* Content */
@@ -2701,6 +2703,7 @@
 
 			header > p {
 				font-size: 1.25em;
+				color: black;
 			}
 
 		/* Image */
@@ -2965,6 +2968,7 @@
 
 				#header header > p {
 					font-size: 1em;
+					color: black;
 				}
 
 				#header h1 {
