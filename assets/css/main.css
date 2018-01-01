@@ -2096,7 +2096,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-color: white;
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2128,6 +2128,7 @@
 			#header header > p {
 				font-size: 1.25em;
 				margin: 0;
+				color: black;
 			}
 
 		#header h1 {
