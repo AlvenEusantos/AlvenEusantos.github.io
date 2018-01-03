@@ -2174,16 +2174,6 @@
 
 		body.homepage #header h1 {
 			font-size: 4em;
-			opacity: 0;
-			-webkit-transition: opacity 2s ease-in;
-    			-moz-transition: opacity 2s ease-in;
-    			-o-transition: opacity 2s ease-in;
-    			-ms-transition: opacity 2s ease-in;
-    			transition: opacity 2s ease-in;
-			-moz-transition-delay: 0.5s;
-			-webkit-transition-delay: 0.5s;
-			-ms-transition-delay: 0.5s;
-			transition-delay: 0.5s;
 		}
 
 		body.homepage #header:after {
