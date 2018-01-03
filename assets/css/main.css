@@ -2172,7 +2172,7 @@
 		min-height: 40em;
 	}
 
-		body.homepage #header h1:after {
+		body.homepage #header h1 {
 			font-size: 4em;
 			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        			-moz-animation: fadein 2s; /* Firefox < 16 */
@@ -2185,7 +2185,7 @@
 			transition-delay: 0.7s;
 		}
 
-		body.homepage #header p:after {
+		body.homepage #header p {
 			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        			-moz-animation: fadein 2s; /* Firefox < 16 */
 			-ms-animation: fadein 2s; /* Internet Explorer */
@@ -2197,7 +2197,7 @@
 			transition-delay: 0.7s;
 		}
 		
-		.body.homepage #footer a:after {
+		.body.homepage #footer a {
 			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        			-moz-animation: fadein 2s; /* Firefox < 16 */
 			-ms-animation: fadein 2s; /* Internet Explorer */
