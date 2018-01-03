@@ -2171,21 +2171,13 @@
 		height: 100vh;
 		min-height: 40em;
 	}
-
-		body.homepage #header.loading h1 {
-		opacity: 0;
-		}
-
-		body.homepage #header.loading p {
-		opacity: 0;
-		}
 		body.homepage #header h1 {
 			font-size: 4em;
-			opacity: 1.0;
-			-moz-transition: opacity 0.75s ease-in-out;
-			-webkit-transition: opacity 0.75s ease-in-out;
-			-ms-transition: opacity 0.75s ease-in-out;
-			transition: opacity 0.75s ease-in-out;
+			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+		        -moz-animation: fadein 2s; /* Firefox < 16 */
+			-ms-animation: fadein 2s; /* Internet Explorer */
+			-o-animation: fadein 2s; /* Opera < 12.1 */
+			 animation: fadein 2s;
 			-moz-transition-delay: 0.7s;
 			-webkit-transition-delay: 0.7s;
 			-ms-transition-delay: 0.7s;
@@ -2193,11 +2185,11 @@
 		}
 
 		body.homepage #header p {
-			opacity: 1.0;
-			-moz-transition: opacity 0.75s ease-in-out;
-			-webkit-transition: opacity 0.75s ease-in-out;
-			-ms-transition: opacity 0.75s ease-in-out;
-			transition: opacity 0.75s ease-in-out;
+			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+		        -moz-animation: fadein 2s; /* Firefox < 16 */
+			-ms-animation: fadein 2s; /* Internet Explorer */
+			-o-animation: fadein 2s; /* Opera < 12.1 */
+			 animation: fadein 2s;
 			-moz-transition-delay: 0.7s;
 			-webkit-transition-delay: 0.7s;
 			-ms-transition-delay: 0.7s;
@@ -2205,11 +2197,11 @@
 		}
 		
 		.body.homepage #footer a {
-			opacity: 1.0;
-			-moz-transition: opacity 0.75s ease-in-out;
-			-webkit-transition: opacity 0.75s ease-in-out;
-			-ms-transition: opacity 0.75s ease-in-out;
-			transition: opacity 0.75s ease-in-out;
+			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+		        -moz-animation: fadein 2s; /* Firefox < 16 */
+			-ms-animation: fadein 2s; /* Internet Explorer */
+			-o-animation: fadein 2s; /* Opera < 12.1 */
+			 animation: fadein 2s;
 			-moz-transition-delay: 0.7s;
 			-webkit-transition-delay: 0.7s;
 			-ms-transition-delay: 0.7s;
