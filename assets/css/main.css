@@ -2211,8 +2211,6 @@
 		body.homepage #header:after {
 			content: '';
 			background-image: url(/images/Smith.jpg);
-			background-repeat:no-repeat;
-			background-position:center;
 			display: block;
 			position: absolute;
 			left: 0;
