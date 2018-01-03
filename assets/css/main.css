@@ -2179,6 +2179,7 @@
 		body.homepage #header:after {
 			content: '';
 			background: #a31d1d;
+			background-image: url(/images/Smith.jpg);
 			display: block;
 			position: absolute;
 			left: 0;
