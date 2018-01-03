@@ -2212,7 +2212,6 @@
 			content: '';
 			background-image: url(/images/Smith.jpg);
 			background-repeat:no-repeat;
-			background-size:contain;
 			background-position:center;
 			display: block;
 			position: absolute;
