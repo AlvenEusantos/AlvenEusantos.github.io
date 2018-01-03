@@ -2012,7 +2012,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #a31d1d;
+			background: #b32b26;
 		}
 
 		input[type="button"].alt,
@@ -2020,7 +2020,7 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #a31d1d;
+			background: #b32b26;
 		}
 
 			input[type="button"].alt:hover,
@@ -2028,7 +2028,7 @@
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #a31d1d;
+				background: #b32b26;
 			}
 
 /* Post */
