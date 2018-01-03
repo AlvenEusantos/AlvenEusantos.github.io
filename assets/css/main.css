@@ -2174,7 +2174,6 @@
 
 		body.homepage #header h1 {
 			font-size: 4em;
-			opacity: 0;
 			-webkit-transition: opacity 2s ease-in;
     			-moz-transition: opacity 2s ease-in;
     			-o-transition: opacity 2s ease-in;
