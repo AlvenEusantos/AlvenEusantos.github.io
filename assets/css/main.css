@@ -2172,7 +2172,7 @@
 		min-height: 40em;
 	}
 
-		body.homepage #header h1 {
+		body.homepage #header h1:after {
 			font-size: 4em;
 			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        			-moz-animation: fadein 2s; /* Firefox < 16 */
@@ -2185,7 +2185,7 @@
 			transition-delay: 0.7s;
 		}
 
-		body.homepage #header p {
+		body.homepage #header p:after {
 			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        			-moz-animation: fadein 2s; /* Firefox < 16 */
 			-ms-animation: fadein 2s; /* Internet Explorer */
@@ -2196,7 +2196,18 @@
 			-ms-transition-delay: 0.7s;
 			transition-delay: 0.7s;
 		}
-
+		
+		.body.homepage #footer a:after {
+			-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       			-moz-animation: fadein 2s; /* Firefox < 16 */
+			-ms-animation: fadein 2s; /* Internet Explorer */
+			 -o-animation: fadein 2s; /* Opera < 12.1 */
+			    animation: fadein 2s;
+			-moz-transition-delay: 0.7s;
+			-webkit-transition-delay: 0.7s;
+			-ms-transition-delay: 0.7s;
+			transition-delay: 0.7s;
+		}
 
 		body.homepage #header:after {
 			content: '';
